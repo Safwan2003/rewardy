@@ -1,0 +1,425 @@
+
+/* Common styles */
+.main {
+    overflow: hidden;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: rgb(35, 31, 64);
+}
+
+/* Responsive styles */
+@media (max-width: 576px) { /* Small devices (sm) */
+    .main {
+        font-size: 5px;
+        line-height: 25px;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 991px) { /* Medium devices (md) */
+    .main {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}
+
+
+    .main-button{
+    padding: 1rem;
+    background-color:#0B9337;
+    color: aliceblue;
+    border: #0B9337;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+      
+
+
+
+/* You can keep your existing CSS styles here */
+
+/* Additional style for the ACCOUNT button */
+@media (max-width: 768px) {
+    .d-none.d-md-block {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+/* Common styles */
+.font {
+    font-size: 86px;
+    font-weight: 500;
+    line-height: 103.2px;
+    color: rgb(35, 31, 64);
+    text-shadow: 10px 10px yellow;
+}
+
+/* Responsive styles */
+@media (max-width: 576px) { /* Small devices (sm) */
+    .font {
+        font-size: 50px;
+        font-weight: 500;
+        line-height: 70px; /* Adjust line-height as needed */
+        color: rgb(35, 31, 64);
+        text-shadow: 10px 10px yellow;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 991px) { /* Medium devices (md) */
+    .font {
+        font-size: 75px;
+        font-weight: 500;
+        color: rgb(35, 31, 64);
+        text-shadow: 10px 10px yellow;
+        line-height: 78.8px; /* Adjust line-height as needed */
+    }
+}
+
+
+
+.heading{
+            /* Font name: EuclidCircularARegular */
+
+font-size: 62px;
+
+font-weight: 500;
+
+line-height: 74.4px;
+text-shadow :   5px  5px   greenyellow;
+
+color: rgba(35, 31, 64, 0.7);
+
+        }@media (max-width: 576px) {
+            .heading {
+                font-size: 40px;
+
+                font-weight: 500;
+                
+                line-height: 50px;
+                text-shadow :   5px  5px   greenyellow;
+                
+                color: rgba(35, 31, 64, 0.7);
+                text-align: center;
+            }
+        }
+        
+
+
+
+
+        .bg-container-services{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem; /* equivalent to rounded-3 class */
+    padding: 0.75rem;
+    width: 22rem;
+    height: 15rem; /* equivalent to py-3 class */
+    /* min-height: 100vh; */
+        }
+
+        .bg-container-services:hover{
+
+background-color: #A6E9D5;
+            
+
+}
+.why-us-circle-position{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: -20rem;
+    top: 55px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #21e9ca 0%, #75ed6d 100%);
+    content: "";
+    opacity: 0.6;
+    border: 10px solid rgba(0, 164, 246, 0.3)
+}
+@media (max-width: 576px) {
+.why-us-circle-position{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    left: -60px;
+    top: 55px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #21e9ca 0%, #75ed6d 100%);
+    content: "";
+    opacity: 0.6;
+    border: 10px solid rgba(0, 164, 246, 0.3)
+}}
+.circle-main{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: -60px;
+    top: 50px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #21e9ca 0%, #75ed6d 100%);
+    content: "";
+    opacity: 0.6;
+    border: 10px solid rgba(0, 164, 246, 0.3)
+}@media (max-width: 576px) {
+    .circle-main {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 60px;
+        top: 60rem;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #21e9ca 0%, #75ed6d 100%);
+        content: "";
+        opacity: 0.6;
+        border: 10px solid rgba(0, 164, 246, 0.3)
+    }}
+
+.circle-about-us{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 60px;
+    top: 50rem;
+    
+    border-radius: 50%;
+    background: linear-gradient(135deg, #21e9ca 0%, #75ed6d 100%);
+    content: "";
+    opacity: 0.6;
+    border: 10px solid rgba(0, 164, 246, 0.3);
+}
+
+@media (max-width: 576px) { /* Small devices (sm) */
+    .circle-about-us{
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        left: 60px;
+        top: 63rem;
+        
+        border-radius: 50%;
+        background: linear-gradient(135deg, #21e9ca 0%, #75ed6d 100%);
+        content: "";
+        opacity: 0.6;
+        border: 10px solid rgba(0, 164, 246, 0.3);
+    }
+}
+
+@media (min-width: 577px) and (max-width: 991px) { /* Medium devices (md) */
+    .circle-about-us{
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 60px;
+        top: 70rem;
+        
+        border-radius: 50%;
+        background: linear-gradient(135deg, #21e9ca 0%, #75ed6d 100%);
+        content: "";
+        opacity: 0.6;
+        border: 10px solid rgba(0, 164, 246, 0.3);
+    }
+}
+
+
+
+
+
+
+
+
+    .testimonals-section{
+        /* margin-top: 2.5rem; */
+    margin-bottom: 2.5rem;
+    background-size: cover;
+    /* background-image: url('./assets/background.jpg'); */
+    background-color: #F9F2E8;
+    height: 700px;
+
+    }
+    .testimonials-div {
+    font-size: 3.125rem;
+    text-align: center;
+    padding-top: 3rem;
+    font-weight: bold;
+}
+.testimonials-heading-border {
+    border-bottom-width: 3px;
+    border-color: #5EC07B;
+    padding-top: 0.75rem;
+    padding-right: 2rem;
+    padding-bottom: 0.75rem;
+    padding-left: 5rem;
+    margin-left: 43rem;
+}
+
+.faq-white-text{
+    /* Font name: EuclidCircularAMedium */
+
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+color: rgb(255, 255, 255);
+background-color: #BEE3DB;
+padding: 1rem;
+}
+
+
+
+.faq-black-text{
+    font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+color: rgba(35, 31, 64, 0.7);
+background-color: white;
+padding: 1rem;
+}
+
+
+.FAQ{
+background-color:#F9F2E8;
+margin-top: 5rem;
+
+}
+.faq-coin{
+    background-image: url('./assets/bitcoin.png');
+    width: 15em;
+    height: 15rem;
+    display: flex;
+    background-repeat: no-repeat;
+    text-align: center;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 20rem;
+    opacity: 0.7;
+    }
+    @media (max-width: 576px) {
+        .faq-coin{
+    background-image: url('./assets/bitcoin.png');
+    width: 15rem;
+    height: 12rem;
+    /* display: flex; */
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 10rem;
+    opacity: 0.7;
+        }
+    }
+    
+
+
+
+
+
+
+
+
+.bar-text{
+    /* Font name: EuclidCircularABold */
+font-size: 42px;
+font-weight: 500;
+line-height: 50.4px;
+color: rgb(35, 31, 64);
+}
+@media (max-width: 576px) {
+    .bar-text {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 40px;
+        text-align: center;
+        color: rgb(35, 31, 64);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.bar-button{
+    position: relative;
+    left: 15rem;
+    background-color: greenyellow; 
+    border: greenyellow;
+    margin: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+    font-weight: 600;
+    
+}
+@media (max-width: 576px) {
+    .bar-button {
+        position: relative;
+        left: 1rem;
+        background-color: greenyellow; 
+        border: greenyellow;
+        margin: 1rem;
+        padding: .5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-radius: 1rem;
+        font-weight: 600;
+    }
+}
+
+@media (max-width: 991.98px) { /* Medium screens and iPads */
+    .align-items-md-start {
+        align-items: flex-start !important;
+    }
+}
+
+
+
+
+
+
+    /* * footer */
+.footer{
+    background: #231F40;
+    color: #8a8a8a;
+    font-size: 14px;
+     padding: 60px 0 20px;
+     display: flex;
+
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4{
+min-width: 250px;
+margin-bottom: 20px;
+}
+
+
+.Copyright{
+    text-align: center;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
